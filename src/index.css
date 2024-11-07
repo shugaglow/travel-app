@@ -284,6 +284,18 @@ input[type="checkbox"] {
 
 
 @media screen  and (max-width: 390px){
+  body {
+    font-size: 2.4rem;
+    font-family: sans-serif;
+    color: #5a3e2b;
+    font-family: "Quicksand";
+    font-weight: 500;
+    width: 90%;
+    height: auto;
+    margin: 4rem auto;
+    border: 1px solid #5a3e2b;
+    border-radius: 2rem;
+  }
   .add-form {
     background-color: #f0ba63;
     padding: 2.8rem;
@@ -303,14 +315,14 @@ input[type="checkbox"] {
   .list {
     background-color: #5a3e2b;
     color: #ffebb3;
-    padding: 2rem ;
+    padding: 1rem ;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     justify-content: center;
     gap: 3.2rem;
     align-items: center;
     flex-wrap: wrap;
+    padding-block-end: 3rem;
   }
 
   .list ul {
